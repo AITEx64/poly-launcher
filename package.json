@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "tauri": "tauri"
+    "tauri": "set STEAM_SDK_LOCATION=%cd%\\sdk& tauri"
   },
   "eslintConfig": {
     "extends": [

@@ -1,0 +1,85 @@
+body {
+  background: transparent;
+}
+
+#root {
+  height: calc(100vh - calc(24px + 32px));
+  margin-top: calc(24px + 32px);
+  padding-top: 8px;
+  background: white;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  user-select: none;
+}
+
+@keyframes cock {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 150% 0%;
+  }
+}
+
+.bar {
+  background: linear-gradient(to right, #F8F, #FBF);
+  height: 2px;
+  width: 100vw;
+  margin: 0;
+  margin-top: -8px;
+  padding: 0;
+}
+
+:root {
+  --bs-primary: #F8F;
+  --bs-secondary: #FAF;
+  --bs-tetriary: #FCF;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background: #FAF;
+  color: black;
+}
+
+.btn-dark-outline {
+  background: transparent;
+  border-color: gray;
+}
+
+.btn-dark-outline:hover, .btn-light:active, .btn-light:focus {
+  background: transparent;
+  border-color: darkgray;
+}
+
+.bg-dark {
+  background: #151515 !important;
+}
+
+.bg-darker {
+  background: #0e0e0e !important;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 24px;
+  width: calc(100% - 64px);
+}
+
+.dropup .dropdown-menu {
+  bottom: 100%;
+}
+
+.dropup .dropdown-menu .inner {
+  max-height: 128px;
+}

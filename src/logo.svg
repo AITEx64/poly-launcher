@@ -1,0 +1,62 @@
+<svg
+   width="116.18515mm"
+   height="40.704491mm"
+   viewBox="0 0 116.18515 40.704491"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.24797875"
+     inkscape:cx="-1058.5585"
+     inkscape:cy="-191.54867"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.23440393,-0.24872064)">
+    <text
+       xml:space="preserve"
+       style="font-size:50.8px;line-height:1.25;font-family:sans-serif;fill:#ffffff;stroke-width:0.265;stroke-miterlimit:3.7;stroke-dasharray:none"
+       x="-4.2056351"
+       y="31.378603"
+       id="text15964"><tspan
+         sodipodi:role="line"
+         id="tspan15962"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New';fill:#ffffff;stroke-width:0.265;stroke-miterlimit:3.7;stroke-dasharray:none"
+         x="-4.2056351"
+         y="32.378603">P ly</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New';fill:#ffffff;stroke-width:0.265;stroke-miterlimit:3.7;stroke-dasharray:none"
+         x="-4.2056351"
+         y="96.024284"
+         id="tspan55422" /></text>
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#ffffff;stroke-width:5.13126;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-dasharray:none;stroke-opacity:1"
+       id="path19185"
+       d="m 305.88581,206.20992 -29.63621,17.11047 -29.63621,-17.11047 0,-32.22095 29.63621,-17.11048 29.63621,17.11048 z"
+       transform="matrix(0.38976756,0,0,0.38976756,-65.632819,-56.664425)" />
+  </g>
+</svg>

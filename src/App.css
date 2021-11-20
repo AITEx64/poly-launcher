@@ -30,7 +30,7 @@ body {
 }
 
 .bar {
-  background: linear-gradient(to right, #F8F, #FBF);
+  background: linear-gradient(to right, #F0F, #FCF);
   height: 2px;
   width: 100vw;
   margin: 0;

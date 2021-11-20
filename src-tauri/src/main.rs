@@ -32,6 +32,7 @@ fn main() {
     }
     None => String::from("none"),
   };
+  
   tauri::Builder::default()
     .setup(move |app| {
       let apphandle = app.handle();
@@ -40,10 +41,6 @@ fn main() {
       let steamworks_name = app.listen_global("get_steam", move |_event| {
         emit_steam_data(&apphandle, &steam_name, &steam_avatar);
       });
-      
-
-      
-
       Ok(())
     })
     .run(tauri::generate_context!())

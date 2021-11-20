@@ -1,0 +1,15 @@
+let thread_client = Arc::clone(&arc_client);
+        let myself = client.friends().get_friend(client.user().steam_id());
+        let name = myself.name();
+        let base64_or_none_pic = match myself.small_avatar() {
+          Some(buffer) => {
+            let mut avatar_png: Vec<u8> = vec![];
+            image::codecs::png::PngEncoder::new(&mut avatar_png).encode(
+              &buffer,
+              32,
+              32,
+              image::ColorType::Rgba8,
+            );
+            base64::encode(avatar_png)
+          }
+          None => String::from("none"),
